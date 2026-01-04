@@ -1,1 +1,116 @@
-<p>home works!</p>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom sticky-top">
+
+  <div class="container">
+    <a class="navbar-brand fw-bold" routerLink="/">Oceanic Dreams</a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mainNavbar"
+      aria-controls="mainNavbar"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/charter">Yacht Charter</a>
+        </li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" />
+        <button class="btn btn-brand" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<main class="container my-4">
+
+  <!-- HERO -->
+  <section class="card hero-card border-0 shadow-sm">
+    <div class="row g-0 align-items-stretch">
+      <div class="col-md-6 p-4 p-lg-5 d-flex flex-column justify-content-center">
+        <h1 class="display-6 fw-bold mb-3">
+          The Best<br />
+          Private Yacht Experience, Luxury on the Sea.<br />
+          <span class="highlight">Oceanic Dreams</span>
+        </h1>
+
+        <p class="text-muted mb-0">
+          Oceanic Dreams brings you the magic of the luxury yacht experience! We all know the chaos that comes with
+          crowded beachfront hotels and the hassle of planning vacations – endless hours spent on bookings, transfers,
+          and packed beaches. Why not choose complete freedom and comfort instead? Enjoy a private yacht with your
+          family, friends, or business partners – the true meaning of carefree relaxation.
+        </p>
+      </div>
+
+      <div class="col-md-6">
+        <!-- képek most a public-ban vannak, ezért csak a fájlnév -->
+        <img class="hero-img" src="PerfectBoat1.jpg" alt="Oceanic Dreams yacht experience">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="card border-0 shadow-sm mt-4">
+    <div class="row g-0 align-items-center">
+      <div class="col-md-6">
+        <img class="section-img" src="PerfectBoat2.jpg" alt="Luxury yacht">
+      </div>
+
+      <div class="col-md-6 p-4 p-lg-5">
+        <div class="section-title mb-2">
+          <span class="badge badge-brand me-2">About Us</span>
+        </div>
+        <h2 class="h4 fw-bold mb-2">Oceanic Dreams – Redefining Luxury Yacht Rentals</h2>
+        <p class="text-muted mb-0">
+          Oceanic Dreams embodies luxury and freedom at sea. Our fleet consists of meticulously selected, world-class
+          yachts, offering the perfect setting for family vacations, romantic getaways, or exclusive business events.
+          Whether you're escaping for a single day or several weeks, you’ll find the ideal yacht with us – complete
+          with personalized services, professional crew, and premium amenities. Experience unlimited freedom and the
+          highest level of comfort with Oceanic Dreams.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- YACHTS -->
+  <section class="card border-0 shadow-sm mt-4">
+    <div class="row g-0 align-items-center flex-md-row-reverse">
+      <div class="col-md-6">
+        <img class="section-img" src="PerfectBoat3.jpg" alt="Yachts">
+      </div>
+
+      <div class="col-md-6 p-4 p-lg-5">
+        <div class="section-title mb-2">
+          <span class="badge badge-brand me-2">Yachts</span>
+        </div>
+        <h2 class="h4 fw-bold mb-2">The World's Finest Yachts for Your Perfect Experiences</h2>
+        <p class="text-muted mb-3">
+          Our fleet offers the perfect blend of modern luxury and timeless elegance. Whether you're looking for lavish
+          motor yachts, classic sailing yachts, or magnificent superyachts – we have a wide selection to meet every need.
+          Our yachts feature the latest technology, stunning spacious cabins, wellness areas, watersports equipment, and
+          top-notch culinary services. Let our expert team help you choose the perfect yacht to ensure your journey is
+          truly unforgettable!
+        </p>
+
+        <a class="btn btn-brand px-4" routerLink="/charter">Browse yachts</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="border-top py-4 text-center text-muted">
+  © Oceanic Dreams
+</footer>
